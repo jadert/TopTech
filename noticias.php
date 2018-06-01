@@ -1,0 +1,1 @@
+<iframe id="iframenoticia" src="cutenews/example.php" width="100%" scrolling="no"></iframe>

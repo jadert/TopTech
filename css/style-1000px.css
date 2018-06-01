@@ -1,0 +1,75 @@
+/*
+	Arcana 2.1 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/*********************************************************************************/
+/* 1000px (> 480px && < 1200px)                                                  */
+/*********************************************************************************/
+
+/* Basic */
+
+	body
+	{
+		font-size: 13pt;
+	}
+
+/* Wrappers */
+
+	#header-wrapper
+	{
+		height: 92px;
+	}
+
+/* Site Header */
+
+	#site-header
+	{
+	z-index: 1000;
+	text-shadow: -1px -1px 1px rgba(51,255,255,1);
+	color: #000;
+	}
+	.f-site
+	{
+    background: url('images/header.png');
+    background-size: 100% 100%;
+	position: fixed;
+    height: 100px;
+	top: 0;
+	width:100%;
+	}
+    .relativo
+    {
+    background: url('images/header.png');
+    background-size: 100% 100%;
+    position: relative;
+    height: 190px;
+    }
+
+/* Logo */
+
+	#logo
+	{
+		height: 75px;
+		line-height: 75px;
+		left: 30px;
+	}
+
+/* Site Nav */
+
+	#nav
+	{
+		right: 30px;
+	}
+
+		#nav ul li
+		{
+			font-size: 1.2em;
+			margin: 0 0 0 1.5em;
+		}
+
+		#nav ul li.current_page_item
+		{
+			background-position: center 68px bottom;
+		}
